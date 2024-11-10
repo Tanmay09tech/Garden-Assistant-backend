@@ -20,6 +20,7 @@ DEBUG = True
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3002",  # Local frontend URL
+    "https://gardeningassistant.vercel.app",  # Vercel frontend URL
 ]
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']  # Add your production domain when deploying
