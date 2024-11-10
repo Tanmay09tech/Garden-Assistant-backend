@@ -20,7 +20,7 @@ DEBUG = True
 CORS_ALLOW_ALL_ORIGINS = True
 
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']  # Add your production domain when deploying
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','gardeningassistant.vercel.app',]  # Add your production domain when deploying
 
 TREFLE_API_KEY = 'jrE9AHq6X_edZPXUZM70HFxnlKF3QtLENCdOs51yYQ4'
 
