@@ -17,11 +17,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-es-pe3-1&ghmz5#7pf&z-e45dj9#hlaq+!!^fo@a-t(iy(x%2&'
 DEBUG = True
+CORS_ALLOW_ALL_ORIGINS = True
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3002",  # Local frontend URL
-    "https://gardeningassistant.vercel.app",  # Vercel frontend URL
-]
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']  # Add your production domain when deploying
 
@@ -95,4 +92,5 @@ CORS_ALLOW_METHODS = [
     'PUT',
     'DELETE',
 ]
+
 
